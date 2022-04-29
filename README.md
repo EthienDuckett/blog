@@ -1,3 +1,5 @@
+# ethienduckett.github.io
+See it live
 # Blogging System
 There are a few components to this blogging system and they are:
 - index.html: a file which provides a front end to blog navigation.
