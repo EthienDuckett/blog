@@ -1,4 +1,4 @@
-# ethienduckett.github.io
+# [ethienduckett.github.io/blog](https://ethienduckett.github.io/blog)
 See it live
 # Blogging System
 There are a few components to this blogging system and they are:
