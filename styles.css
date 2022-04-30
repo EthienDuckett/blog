@@ -17,6 +17,9 @@ body {
 	background-color:black;
 	min-height:100vh;
 }
+h1 {
+	line-height:1em;
+}
 a {
 	text-decoration:none;
 	color:black;
@@ -63,7 +66,8 @@ a:visited {
 }
 #outro {
 	font-family:cursive;
-	position:absolute;
+	margin-top:3em;
+	position:static;
 	bottom:0px;
 	width:100%;
 	font-size:2em;
@@ -98,8 +102,10 @@ a:visited {
 	color:black;
 }
 .sect {
-	margin-top:3em;
+	padding-top:1em;
+	padding-bottom:1em;
 	border-top:orange solid 2px;
+	border-bottom:orange solid 2px;
 	width:100%;
 }
 .float {
@@ -110,6 +116,7 @@ a:visited {
 .floatRight {
 	width: 90%;
 	margin-left:auto;
+	margin-right:unset;
 	display:flex;
 	flex-direction:row;
 	align-items:flex-end;
@@ -117,6 +124,7 @@ a:visited {
 .floatLeft {
 	width: 90%;
 	margin-right:auto;
+	margin-left:unset;
 	display:flex;
 	flex-direction:row-reverse;
 	align-items:flex-end;
@@ -124,7 +132,24 @@ a:visited {
 }
 .readable {
 	max-width: var(--max-readable-p-width);
+	margin-left:auto;
+	margin-right:auto;
 	line-height:1.2em;
 	font-size:1.4em;
 }
 
+@media (max-width:990px) {
+	.floatLeft {
+		width:100%;
+	}
+	.floatRight {
+		width:100%;
+	}
+	.float {
+		width:100%;
+	}
+@media (max-width:900px) {
+	html {
+		background-color:black;
+	}
+}
