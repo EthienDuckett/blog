@@ -73,6 +73,16 @@ a:visited {
 	flex-direction:row;
 	justify-content:space-around;
 }
+#intro {
+	font-family:cursive;
+	margin-top:1.5em;
+	margin-bottom:1.5em;
+	position:static;
+	bottom:0px;
+	width:100%;
+	font-size:2em;
+	text-align:center;
+}
 #outro {
 	font-family:cursive;
 	margin-top:3em;
