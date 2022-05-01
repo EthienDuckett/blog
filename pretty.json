@@ -1,4 +1,9 @@
 {
+	"Ethien's autobiography": {
+		"creation_time": "Sun 01 May 2022 12:11:12 AM UTC",
+		"hook": "This blog is about myself, if you want to learn more about me, you should read it. Also see my resume at the top level.",
+		"start_file": "blogs/autobiography.html"
+	},
 	"I created code blocks.": {
 		"creation_time": "Fri 22 Apr 2022 01:33:30 AM UTC",
 		"hook": "They look good, why don't you take a look?",

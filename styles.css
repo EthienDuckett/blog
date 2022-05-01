@@ -20,6 +20,15 @@ body {
 h1 {
 	line-height:1em;
 }
+img {
+	display:block;
+	max-width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+img.viewable {
+	width:var(--max-readable-p-width);
+}
 a {
 	text-decoration:none;
 	color:black;
